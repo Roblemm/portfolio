@@ -1,5 +1,20 @@
+:root {
+  --main: #F0FCFE;
+  --text-default: #151C23;
+  --bs-primary: #98b622;
+}
+
+
 .App {
   text-align: center;
+  background-color: var(--main);
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg-blue {
+  background-color: darkblue !important;
+  color: white;
 }
 
 .App-logo {
@@ -14,7 +29,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--main-bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
