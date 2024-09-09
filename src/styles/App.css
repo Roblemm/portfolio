@@ -5,6 +5,15 @@
 }
 
 
+.custom-container {
+  background-color: #f0f0f0; /* Example solid background color */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  padding: 20px; /* Optional: Adds padding to the container */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  min-height: 100vh; /* Ensures the container fills the viewport height */
+}
+
 .App {
   text-align: center;
   background-color: var(--main);
