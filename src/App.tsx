@@ -3,7 +3,7 @@ import './styles/App.css';
 
 
 // Import react-router-dom for routing
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 // Import the pages
 import Home from './pages/Home';
@@ -24,22 +24,22 @@ function App() {
     <Router>
       <Navbar bg="dark" expand="lg" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/portfolio">itsjath</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">itsjath</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/portfolio/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/portfolio/business">Business</Nav.Link>
-              <Nav.Link as={Link} to="/portfolio/technology">Technology</Nav.Link>
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/business">Business</Nav.Link>
+              <Nav.Link as={Link} to="/technology">Technology</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
       <Container fluid className="custom-container">
         <Routes>
-          <Route path="/portfolio/" element={<Home />} />
-          <Route path="/portfolio/business" element={<Business />} />
-          <Route path="/portfolio/technology" element={<Technology />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/business" element={<Business />} />
+          <Route path="/technology" element={<Technology />} />
         </Routes>
       </Container>
     </Router>
