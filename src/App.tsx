@@ -22,9 +22,18 @@ import Navbar from 'react-bootstrap/Navbar';
 function App() {
   return (
     <Router>
-      <Navbar bg="dark" expand="lg" data-bs-theme="dark">
+      <Navbar bg="dark" expand="lg" data-bs-theme="dark" sticky="top">
         <Container>
-          <Navbar.Brand as={Link} to="/">itsjath</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">
+          <img
+              alt=""
+              src={`${process.env.PUBLIC_URL}/BigPP.png`}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+            itsjath
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
