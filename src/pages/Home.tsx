@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
+// Images for Grid
 const images = [
   { src: require("../assets/images/MultiSurvival.png"), alt: 'Multiblock Survival Game' },
   { src: require("../assets/images/evilpets.png"), alt: 'Evil Pets Game' },
@@ -20,6 +21,7 @@ function Button({children} : any){
   );
 }
 
+// Grid Component
 function Grid(){
   return (
     <div className="min-h-screen bg-sky-100 p-10">
