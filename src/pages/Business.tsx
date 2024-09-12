@@ -71,7 +71,7 @@ const projects = [
         "endDate": "Present",
         "description": "Revamping Purdue Dining services by analyzing consumer feedback, designing targeted marketing campaigns, and leading collaborative efforts with administration to enhance the dining app experience.",
         "bulletPoints": [
-            "Designed and distributed promotional materials across social media, generating 80+ form submissions and engagement within 24 hours.",
+            "Designed and distributed promotional materials across social media, generating 100+ form submissions and engagement within 24 hours.",
             "Conducted consumer surveys to identify issues with the Purdue dining app, analyzing data to inform improvements.",
             "Coordinated and led meetings with Purdue administration to present data analytics, providing actionable insights.",
             "Led a team to develop and implement marketing strategies, enhancing communication and outreach efforts."
